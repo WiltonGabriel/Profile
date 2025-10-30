@@ -1,0 +1,90 @@
+/*responsive*/
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header nav a {
+        font-size: 0.8rem;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header nav {
+        margin-top: 24px;
+    }
+
+    header nav a {
+        font-size: 1rem;
+    }
+
+    main figure img {
+        max-width: 80%;
+        max-height: 75%;
+    }
+
+    .main-content {
+        width: 100%;
+        align-items: center;
+    }
+
+    .main-content .text h2 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .main-content .text p {
+        width: 100%;
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .main-content .techs {
+        text-align: center;
+    }
+
+    main .main-content .techs .card {
+        margin: 15px 5px 0 5px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width:1024px) {
+    main {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .main-content {
+        width: 100%;
+        align-items: center;
+    }
+
+    .main-content .text h2 {
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    .main-content .text p {
+        width: 100%;
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .main-content .techs {
+        text-align: center;
+    }
+}
